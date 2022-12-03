@@ -1,2 +1,2 @@
 # com.lurking-ninja.game-utils
-Various utility functions and helpers for developing games in Unity.
+Various helper system often used to build various games. Kind of catch them all repository, see README.

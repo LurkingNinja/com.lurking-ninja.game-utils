@@ -1,0 +1,22 @@
+{
+    "name": "com.lurking-ninja.game-utils.runtime",
+    "rootNamespace": "LurkingNinja.Utils",
+    "references": [
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "",
+            "define": "INPUT_SYSTEM_ENABLED"
+        }
+    ],
+    "noEngineReferences": false
+}
