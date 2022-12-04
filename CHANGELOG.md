@@ -1,6 +1,11 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [1.1.1] - 20xx-xx-xx
+### Changed
+- ScenePropertyDrawer label changed when used with arrays and lists from "Element X" to "X"
+- Optional assertion check fixed
+
 ## [1.1.0] - 2022-12-03
 ### Added
 - Optional type

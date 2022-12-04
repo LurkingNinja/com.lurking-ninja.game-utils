@@ -16,6 +16,12 @@ namespace LurkingNinja.Utils.Editor.PropertyDrawers
                 EditorGUI.LabelField(position, label.text, "Use [SceneDrawer] with strings.");
                 return;
             }
+
+            if (label.text.StartsWith("Element "))
+            {
+                label.text = label.text.Substring(7, label.text.Length - 7);
+            }
+
             var sceneObject = GetSceneObject(property.stringValue);
             var scene = EditorGUI.ObjectField(position, label, sceneObject, typeof(SceneAsset), true);
 
@@ -24,7 +30,7 @@ namespace LurkingNinja.Utils.Editor.PropertyDrawers
                 property.stringValue = "";
                 return;
             }
-
+            
             if (scene.name == property.stringValue) return;
             var sceneObj = GetSceneObject(scene.name);
             if (sceneObj is null) return;

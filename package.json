@@ -1,7 +1,7 @@
 {
   "name": "com.lurkingninja.game-utils",
   "displayName": "Game Utils",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "unity": "2021.3",
   "description": "Various systems often used to build various type of games. See README for details.",
   "documentationUrl": "https://lurking-ninja.com/",

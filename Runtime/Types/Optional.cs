@@ -61,7 +61,7 @@ namespace LurkingNinja.Utils.Types
             get
             {
 #if UNITY_ASSERTIONS
-                Assert.IsFalse(HasValue);
+                Assert.IsTrue(HasValue);
 #endif
                 return value;
             }
